@@ -1,0 +1,1 @@
+C({"name": "_cancel", "params": {"id": {"description": "", "type": "", "optional": false, "order": 0, "name": "id"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "parent": "cweb/client/uploader.valums/js/fileuploader.js", "comment": "<p>Actual cancel method</p>", "children": []})

@@ -1,0 +1,1 @@
+C({"name": "_getDefaultDate", "params": {"inst": {"description": "", "type": "", "optional": false, "order": 0, "name": "inst"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "parent": "cweb/client/jquery-tmpl/demos/movies/components/jquery-ui-1.8.1.custom.js", "comment": "<p>Retrieve the default date shown on opening. </p>", "children": []})

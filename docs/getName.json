@@ -1,0 +1,1 @@
+C({"name": "getName", "params": {"id": {"description": "", "type": "", "optional": false, "order": 0, "name": "id"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "parent": "cweb/client/uploader.valums/js/fileuploader.js", "comment": "<p>Returns name of the file identified by id</p>", "children": []})

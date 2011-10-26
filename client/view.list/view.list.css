@@ -1,0 +1,43 @@
+/* 
+    Document   : view.list
+    Created on : 13.06.2011, 18:26:08
+    Author     : michael
+    Description:
+        Adds style definitions for view.list.
+*/
+
+table#view-list 
+{ 
+	width:100%; 
+	border:4px solid #000;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+#view-list tr#view-list-head
+{
+    background-color:#182D3E;
+    color:#fff;
+    font-weight:bold;
+}
+
+#view-list tr
+{
+	background-color:#A9CDD9;
+    cursor:pointer;
+}
+
+#view-list tr:nth-child(odd)
+{
+	background-color:#D3E5EC;
+}
+
+#view-list tr:hover{
+	background-color:#83B1BF;
+}
+
+#view-list tr td{
+    border-top:1px solid #FFF;
+	padding: 0.5em;
+}
+

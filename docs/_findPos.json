@@ -1,0 +1,1 @@
+C({"name": "_findPos", "params": {"obj": {"description": "", "type": "", "optional": false, "order": 0, "name": "obj"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "parent": "cweb/client/jquery-tmpl/demos/movies/components/jquery-ui-1.8.1.custom.js", "comment": "<p>Find an object's position on the screen. </p>", "children": []})

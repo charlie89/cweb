@@ -1,0 +1,15 @@
+{
+    "js": [
+    	"core.js",
+    	"pluginloader.js",
+    	"open.js",
+    	"editor.js",
+		"tmpl/formAccept.tmpl",
+		"tmpl/formInput.tmpl"
+    ],
+
+    "css": [
+    	"normalize.css/normalize.css",
+    	"style.css"
+    ]
+}

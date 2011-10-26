@@ -1,0 +1,1 @@
+C({"name": "qq.FileUploaderBasic", "params": {"o": {"description": "", "type": "", "optional": false, "order": 0, "name": "o"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "parent": "cweb/client/uploader.valums/js/fileuploader.js", "comment": "<p>Creates upload button, validates upload, but doesn't create file list or dd. </p>", "children": []})

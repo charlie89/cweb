@@ -1,0 +1,1 @@
+C({"name": "_clearDate", "params": {"id": {"description": "", "type": "", "optional": false, "order": 0, "name": "id"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "parent": "cweb/client/jquery-tmpl/demos/movies/components/jquery-ui-1.8.1.custom.js", "comment": "<p>Erase the input field and hide the date picker. </p>", "children": []})

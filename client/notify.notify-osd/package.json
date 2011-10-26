@@ -1,0 +1,7 @@
+{
+    "js" : [
+        "notify-osd.js",
+        "notify.js"
+    ],
+    "css" : ["notify-osd.css"]
+}

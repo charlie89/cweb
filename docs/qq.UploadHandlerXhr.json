@@ -1,0 +1,1 @@
+C({"name": "qq.UploadHandlerXhr", "params": {"o": {"description": "", "type": "", "optional": false, "order": 0, "name": "o"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "parent": "cweb/client/uploader.valums/js/fileuploader.js", "comment": "<p>Class for uploading files using xhr</p>", "inherits": "qq.UploadHandlerAbstract", "children": []})

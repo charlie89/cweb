@@ -1,0 +1,4 @@
+{
+    "js" : ["view.list.js"],
+    "css" : ["view.list.css"]
+}

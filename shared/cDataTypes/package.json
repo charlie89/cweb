@@ -1,0 +1,14 @@
+{
+    "name": "cDataTypes"
+  , "version": "0.0.1"
+  , "description": "Common Datatypes for cWEB"
+  , "homepage": ""
+  , "keywords": ["php", "sessions", "handler", "phpSessionHandler", "comet", "ajax"]
+  , "author": ""
+  , "repository":{
+        "type": "git"
+      , "url": ""
+    }
+  , "main": "cDataTypes.js"
+  , "engines": { "node": ">= 0.4.0" }
+}

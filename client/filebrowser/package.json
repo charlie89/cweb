@@ -1,0 +1,13 @@
+{
+    "js" : ["filebrowser.js"],
+    "css" : [],
+    "config" : [
+    	{
+	    	"name" : "index-menu",
+	    	"data" : {
+        		"label" : "Filebrowser",
+        		"plugin" : "filebrowser"	
+    		}
+    	}
+    ]
+}

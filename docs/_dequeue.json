@@ -1,0 +1,1 @@
+C({"name": "_dequeue", "params": {"id": {"description": "", "type": "", "optional": false, "order": 0, "name": "id"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "parent": "cweb/client/uploader.valums/js/fileuploader.js", "comment": "<p>Removes element from queue, starts upload of next</p>", "children": []})

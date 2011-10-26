@@ -1,0 +1,21 @@
+[submodule "node_modules/node-css-compressor"]
+	path = node_modules/node-css-compressor
+	url = git://github.com/fczuardi/node-css-compressor.git
+[submodule "client/editor.codemirror/codemirror2"]
+	path = client/editor.codemirror/codemirror2
+	url = http://marijnhaverbeke.nl/git/codemirror2
+[submodule "client/fluid960gs/fluid960gs"]
+	path = client/fluid960gs/fluid960gs
+	url = git://github.com/bauhouse/fluid960gs.git
+[submodule "client/jquery-tmpl/jquery-tmpl"]
+	path = client/jquery-tmpl/jquery-tmpl
+	url = git://github.com/jquery/jquery-tmpl.git
+[submodule "client/knockout/knockout"]
+	path = client/knockout/knockout
+	url = git://github.com/SteveSanderson/knockout.git
+[submodule "client/modaldialog.simplemodal/simplemodal"]
+	path = client/modaldialog.simplemodal/simplemodal
+	url = git://github.com/ericmmartin/simplemodal.git
+[submodule "client/notify.notify-osd/jquery-notify-osd"]
+	path = client/notify.notify-osd/jquery-notify-osd
+	url = git://github.com/vickychijwani/jquery-notify-osd.git

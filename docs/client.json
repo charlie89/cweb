@@ -1,0 +1,1 @@
+C({"name": "client", "type": "page", "parent": "cweb/docs/sites/client.js", "comment": "<h3>Client</h3>\n\n<p>Our little client only has two classes:</p>\n\n<ul>\n<li>Customer </li>\n<li>Order </li>\n</ul>", "title": "Client", "tags": ["home", "client"], "children": []})

@@ -1,0 +1,18 @@
+{
+    "plugins" : [
+        "jquery",
+		  "jquery-tmpl",
+		  "knockout",
+		  "core",
+        "fluid960gs",
+		  "index.modern",
+        "view.icons",
+        "view.list",
+		  "notify.notify-osd"
+    ],
+
+    "pluginloaderAPI" : {
+        "top" : "c.core.config.configure(",
+        "bottom" : ");"
+    }
+}

@@ -1,0 +1,1 @@
+C({"name": "letter", "type": "attribute", "parent": "cweb/client/editor.codemirror/codemirror/mode/scheme/scheme.js", "comment": "<p>Either \n(indent-word ..\n(non-indent-word ..\n(;something else, bracket, etc.</p>", "children": []})

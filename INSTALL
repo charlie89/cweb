@@ -1,0 +1,33 @@
+Install Instructions:
+    1) Download and extract or git clone
+    2) install the required dependencies
+    3) write configuration
+    4) execute 'node server.js'
+    5) Have fun!
+
+Dependencies
+    The following node modules have to be installed on your system:
+    Installing these with npm (node packet manager) will be the easiest way.
+    * qs ?
+    * mime
+    * gzip
+    * uglify-js
+    * stylus, less
+    * mongoskin
+
+Configuration
+    Make a file called 'config.json' and fill it with the following content:
+{
+    "timeout": "30000",
+    "port" : "8080",
+    "db" : {
+	"name_of_database": {
+	    "driver" : "database_driver",
+	    "host" : "host",
+	    "port" : "port",
+	    "db" : "db_name",
+	    "user" : "user",
+	    "pw" : "password"
+	}
+    }
+}

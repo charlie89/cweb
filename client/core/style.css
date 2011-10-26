@@ -1,0 +1,14 @@
+body
+{
+    height: 100%;
+	color: #111111;
+    background-color: #EEE;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+input{  
+    padding:5px;   
+    margin-bottom: 10px;
+}  

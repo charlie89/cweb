@@ -1,0 +1,1 @@
+C({"name": "qq.UploadHandlerAbstract", "params": {"o": {"description": "", "type": "", "optional": false, "order": 0, "name": "o"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "parent": "cweb/client/uploader.valums/js/fileuploader.js", "comment": "<p>Class for uploading files, uploading itself is handled by child classes</p>", "children": []})

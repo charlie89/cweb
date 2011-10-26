@@ -1,0 +1,23 @@
+{
+    "name" : "cweb",
+    "description" : "A website which supports user-accounts and plugins using modern techniqes built on top of node.js",
+    "version" : "0.1",
+    "main" : "server.js",
+    "author" : {
+        "name" : "michael",
+        "email" : "kochmichael89@gmail.com"
+    },
+    "keywords" : 
+        [
+            ""
+        ],
+    "licenses" : {
+        "type" : "gplv3"
+    },
+    "bugs" : {
+        "web" : "null"
+    },
+    "license" : {
+        "type" : "gplv3"
+    }
+}

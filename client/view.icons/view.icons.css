@@ -1,0 +1,94 @@
+/* 
+    Document   : prototype
+    Created on : 15.06.2011, 18:29:43
+    Author     : michael
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.view-icons
+{
+    list-style-type: none;
+    width: 100%;
+}
+
+.view-icons li
+{
+    position: relative;
+    margin: 5px;
+    padding: 1px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    font-size: 12px;
+    text-align: center;
+    background: rgb(222, 222, 222);
+    background: rgba(240, 119, 70, 0.2);
+    border-style:solid;
+    border-color:#DD4814;
+    border-width:1px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    cursor: pointer;
+    word-wrap:break-word; 
+}
+
+.view-icons li:first-child
+{
+    margin-left: -25px;
+}
+
+.view-icons img
+{
+    border: 0;
+    /*	margin-left: auto;
+	margin-right: auto;*/
+    cursor: pointer;
+    width:auto;
+    height:auto;
+    max-width: 64px;
+    max-height: 64px;
+    padding-top: 4px;
+}
+
+.view-icons label
+{
+    position: absolute; 
+    left: 0px;
+    bottom: 2px;
+    width: 100px !important;
+    height: 30px;
+    cursor: pointer;
+}
+
+.view-icons li:hover
+{
+    background: rgb(240, 119, 70);
+    background-color: rgba(240, 119, 70, 0.5);
+
+}
+
+.view-icons li.moveplaceholder
+{
+    background: rgb(255, 150, 0);
+    background-color: rgba(255, 150, 0, 0.3);
+    box-shadow: 0px 0px 6px rgba(255, 150, 0, 0.6);
+    -moz-box-shadow: 0px 0px 6px rgba(255, 150, 0, 0.6);
+    -webkit-box-shadow: 0px 0px 6px rgba(255, 150, 0, 0.6);
+    cursor: pointer;
+}
+
+.view-icons-head label
+{
+    float: none !important;
+
+}
+
+.view-icons li.ui-selected
+{
+    background: rgb(240, 119, 70);
+    background-color: rgba(240, 119, 70, 1);
+}
+
+

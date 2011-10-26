@@ -1,0 +1,1 @@
+C({"name": "toElement", "type": "attribute", "parent": "cweb/client/uploader.valums/js/fileuploader.js", "comment": "<p>Creates and returns element from html string\nUses innerHTML to create an element</p>", "children": []})

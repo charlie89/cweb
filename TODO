@@ -1,0 +1,28 @@
+TODo:
+SERVERside
+Until v1.0:
+* cSession-Controller built into cRouter (actual session sets cookie on every response)
+* finish cDB
+
+Until v2.0:
+* hook.io (every module is a own process which is much safer and error-resistent)
+* System for Compression handling (gzip, sdch, deflate or none) through reading headers and making generic compress function
+  no sdch planned because this works only for static files
+* finish/refactor cFile
+
+CLIENTside
+v1.0:
+- node-uuid
+* KnockoutJS data binding and templates
+* Todo
+* Links-Crawler
+* Files in DB?
+- Money Check
+* Documentation
+
+v2.0:
+* filebrowser (full refactor)
+* new Design (CSS-Vorlagen?)
+* stylus (CSS engine, better than less)
+* markitup (text editor wih toolbar)
++ Mobile Version

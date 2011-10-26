@@ -1,0 +1,1 @@
+C({"name": "reset", "params": {}, "ret": {"type": "undefined", "description": ""}, "type": "function", "parent": "cweb/client/uploader.valums/js/fileuploader.js", "comment": "<p>Resets the test setup. Useful for tests that modify the DOM.</p>\n\n<p><p>If jQuery is available, uses jQuery's html(), otherwise just innerHTML.</p>cleans/recreates the file input </p>", "children": []})

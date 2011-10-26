@@ -1,0 +1,1 @@
+C({"name": "getQueue", "params": {}, "ret": {"type": "undefined", "description": ""}, "type": "function", "parent": "cweb/client/uploader.valums/js/fileuploader.js", "comment": "<p>Returns id of files being uploaded or\nwaiting for their turn</p>", "children": []})

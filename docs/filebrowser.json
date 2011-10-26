@@ -1,0 +1,1 @@
+C({"name": "filebrowser", "type": "attribute", "parent": "cweb/client/filebrowser/filebrowser.js", "comment": "<p>@namespace File-Browser. Includes moving, renaming and deleting files and creating new folders.</p>", "children": []})

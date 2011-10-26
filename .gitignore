@@ -1,0 +1,10 @@
+.nodester.appconfig
+.settings.xml
+cweb.sublime-project
+.bin/
+files/
+/nbproject/private/
+.nbrun
+cweb-session.vim
+*.swp
+~*

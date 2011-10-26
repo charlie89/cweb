@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta encoding="UTF-8"> 
+	<meta name="author" content="Charlie">
+    <title>ctec Login</title>
+</head>
+<body>
+<div align="center">
+<script>
+function login() {
+    var http = null;
+    if (window.XMLHttpRequest) {
+        http = new XMLHttpRequest();
+    }
+    else if (window.ActiveXObject) {
+        http = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    if (http != null) {
+        var name = document.getElementById("name").value;
+        var pw = document.getElementById("pw").value;
+        var query = "" + "?name=" + name + "&pw=" + pw;
+        http.open("GET", query, true);
+        http.onreadystatechange = changeLocation;
+        http.send(null);
+    }
+    return false;
+
+    function changeLocation() {
+        if (http.readyState == 4) {
+            if (http.responseText == "OK") {
+                window.location = "/";
+            }
+            else {
+                alert("Wrong Username and/or Password");
+            }
+        }
+    }
+}
+</script>
+<form onsubmit="return login()">
+  Username: <input id="name" type="text" name="name" size="40" /><br />
+  Password: <input id="pw" type="password" name="pw" size="40" /><br />
+  <p><input type="submit" value="Login" /></p>
+</form>
+</div>
+</body>
+</html>
