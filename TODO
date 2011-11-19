@@ -26,3 +26,11 @@ v2.0:
 * stylus (CSS engine, better than less)
 * markitup (text editor wih toolbar)
 + Mobile Version
+
+
+--------------------------------------------
+============================================
+NodeJS Plugins
+json-streamify		JSON.stringify as stream		git://github.com/DTrejo/json-streamify.git
+cookies
+node-compress

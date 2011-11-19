@@ -1,7 +1,7 @@
 {
     "js" : [
-        "notify-osd.js",
+        "jquery-notify-osd/notify-osd.js",
         "notify.js"
     ],
-    "css" : ["notify-osd.css"]
+    "css" : ["jquery-notify-osd/notify-osd.css"]
 }

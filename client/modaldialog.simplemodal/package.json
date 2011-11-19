@@ -1,7 +1,4 @@
 {
-    "js" : [
-        "notify-osd.js",
-        "notify.js"
-    ],
-    "css" : ["notify-osd.css"]
+    "js"  : ["simplemodal/src/jquery.simplemodal.js"],
+    "css" : []
 }

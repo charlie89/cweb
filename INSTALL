@@ -14,6 +14,7 @@ Dependencies
     * uglify-js
     * stylus, less
     * mongoskin
+	 * sesh, eyes
 
 Configuration
     Make a file called 'config.json' and fill it with the following content:

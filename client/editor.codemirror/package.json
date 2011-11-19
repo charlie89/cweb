@@ -1,4 +1,10 @@
 {
-    "js": ["codemirror2/lib/codemirror.js", "codemirror/mode/javascript/javascript.js"],
-    "css": ["codemirror2/lib/codemirror.css", "codemirror/theme/default.css"]
+    "js": [
+	    "codemirror2/lib/codemirror.js", 
+		 "codemirror2/mode/javascript/javascript.js"
+	 ],
+    "css": [
+	    "codemirror2/lib/codemirror.css", 
+		 "codemirror2/theme/default.css"
+	 ]
 }

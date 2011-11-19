@@ -1,4 +1,4 @@
 {
-    "js": ["jquery.tmpl.js"],
+    "js": ["jquery-tmpl/jquery.tmpl.js"],
     "css": []
 }
