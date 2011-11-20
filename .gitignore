@@ -8,3 +8,4 @@ files/
 cweb-session.vim
 *.swp
 ~*
+config.json
