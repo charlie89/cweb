@@ -1,7 +1,7 @@
 TODo:
 SERVERside
 Until v1.0:
-* cSession-Controller built into cRouter (actual session sets cookie on every response)
++ cSession-Controller built into cRouter (actual session sets cookie on every response)
 * finish cDB
 
 Until v2.0:
