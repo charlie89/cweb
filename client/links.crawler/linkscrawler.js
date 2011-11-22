@@ -37,11 +37,11 @@ $(function(){
 							Links.crawler.load();
 						}
 						else{
-							alert("Link adding failed.");
+							c.notify("Link adding failed.");
 						}
 					},
 					error: function() {
-						alert('Server unavailable.');
+						c.notify('Server unavailable.');
 					}
 				});
 			}); 
@@ -72,11 +72,11 @@ $(function(){
 						});
 					}
 					else{
-						alert("Link adding failed.");
+						c.notify("Link adding failed.");
 					}
 				},
 				error: function() {
-					alert('Server unavailable.');
+					c.notify('Server unavailable.');
 				}
 			});
 		}
