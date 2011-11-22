@@ -77,6 +77,6 @@ $(function(){
             return html;
         },
 
-        icon: 'image/actions/view-list-compact.png'
+        icon: 'image/actions/view-list-compact'
     });
 });

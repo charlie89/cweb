@@ -54,6 +54,6 @@ $(function() {
 
         },
 
-        icon: 'image/actions/view-list-icons.png'
+        icon: 'image/actions/view-list-icons'
     });
 });

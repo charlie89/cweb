@@ -12,12 +12,16 @@ require("cSettings").init(process.env['app_config'], function(cSettings){
 		,{
 			api: 'image',
 			method: 'GET', 
-			callback: require('cFile').staticDir(__dirname + "/client/core/img", {
-				".png": "image/png",
-				".jpg": "image/jpeg",
-				".jpeg": "image/jpeg",
-				".gif": "image/gif"
-			})
+			callback: function(req, res){
+				req.cURL.pathname += '.svg';
+				require('cFile').staticDir(__dirname + "/client/core/img", {
+					".png": "image/png",
+					".jpg": "image/jpeg",
+					".jpeg": "image/jpeg",
+					".gif": "image/gif",
+					".svg": require('mime').lookup('.svg') 
+				})(req, res);
+			}
 		}
 		//,{		// enable for file webserver
 			//api: 'html',
