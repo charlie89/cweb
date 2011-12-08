@@ -31,9 +31,9 @@ $(function(){
 					type: "POST",
 					url: "db/links.crawler",
 					data: JSON.stringify(data),
-					dataType: "json",
+					dataType: "text",
 					success: function(e) {
-						if (e.state=="success") {
+						if (e=="OK") {
 							Links.crawler.load();
 						}
 						else{
