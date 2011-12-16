@@ -23,11 +23,11 @@ require("cSettings").init(process.env['app_config'], function(cSettings){
 				})(req, res);
 			}
 		}
-		//,{		// enable for file webserver
-			//api: 'html',
-			//method: 'GET',
-			//callback: require('cFile').staticDir(__dirname,{ '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'mime/json', '.mp3': 'audio/mp3'})
-		//}
+		,{		// enable for file webserver
+			api: 'html',
+			method: 'GET',
+			callback: require('cFile').staticDir(__dirname,{ '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'mime/json', '.mp3': 'audio/mp3'})
+		}
 	]);
 
 	router.add(require("cindex-page").route);
