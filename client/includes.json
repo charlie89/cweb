@@ -6,7 +6,7 @@
 		  "core",
         "fluid960gs",
 		  "index.modern",
-
+        "menu.fixedmenu",
         "view.icons",
         "view.list",
 		  "notify.notify-osd"
