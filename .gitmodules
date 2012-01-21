@@ -19,3 +19,6 @@
 [submodule "client/notify.notify-osd/jquery-notify-osd"]
 	path = client/notify.notify-osd/jquery-notify-osd
 	url = git://github.com/vickychijwani/jquery-notify-osd.git
+[submodule "client/core/normalize.css"]
+	path = client/core/normalize.css
+	url = git://github.com/necolas/normalize.css.git
