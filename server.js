@@ -1,17 +1,17 @@
+
 require("cSettings").init(process.env['app_config'], function(cSettings){
 	var http = require("http");
 	var cRouter = require('cRouter');
 	var session = require('cSession');
-
 	var router = cRouter.route([
 		{ // Create a new router
 			api: 'favicon.ico',
 			method: 'GET',
-		callback: require('cFile').staticFile(__dirname + '/client/favicon.ico', 'image/x-icon')			
+		callback: require('cFile').staticFile(__dirname + '/client/favicon.ico', 'image/x-icon')
 		}
 		,{
 			api: 'image',
-			method: 'GET', 
+			method: 'GET',
 			callback: function(req, res){
 				req.cURL.pathname += '.svg';
 				require('cFile').staticDir(__dirname + "/client/core/img", {
@@ -19,7 +19,7 @@ require("cSettings").init(process.env['app_config'], function(cSettings){
 					".jpg": "image/jpeg",
 					".jpeg": "image/jpeg",
 					".gif": "image/gif",
-					".svg": require('mime').lookup('.svg') 
+					".svg": require('mime').lookup('.svg')
 				})(req, res);
 			}
 		}
@@ -38,12 +38,12 @@ require("cSettings").init(process.env['app_config'], function(cSettings){
 	router.add(require("cDB").route);
 
 	http.createServer(
-		function(req, res){	
-			session(req, res, 
+		function(req, res){
+			session(req, res,
 				router);
 		}
 	).listen(cSettings.env.port);
 
 	console.log("Server running at localhost:" + cSettings.env.port + (cSettings.debug? " debug": " release"));
 
-}); 
+});
