@@ -9,3 +9,10 @@ cweb-session.vim
 *.swp
 ~*
 config.json
+node_modules/cookies/
+node_modules/gzip/
+node_modules/keygrip/
+node_modules/mime/
+node_modules/mongoskin/
+node_modules/uglify-js/
+
