@@ -32,3 +32,21 @@ Configuration
 	}
     }
 }
+
+How to set up MongoDB:
+type 'mongo' in a shell
+use cweb
+db.createCollection("users")
+db.users.save({
+    "name": "Username",
+    "pw": "password",
+    "cPluginLoader": {
+        "allowedPlugins": [
+            "filebrowser"
+        ],
+        "initPlugins": [],
+        "initConfigs": [
+            "filebrowser"
+        ]
+    }
+})
